@@ -31,7 +31,6 @@ class Player
 end
 # 相手が「0~2」の値をランダムに生成するロジックを書きます。
 class Enemy
-  number = [0, 1, 2]
   def hand
     # グー、チョキ、パーの値をランダムに取得する。
     return rand(3).to_i
